@@ -1,0 +1,348 @@
+body{
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    
+}
+.top{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    
+}
+.announce{
+    background-color: rgb(232, 232, 232);
+    padding: 5px 10px 7px 10px;
+    border-radius: 20px;
+    height: 14px;
+    align-self: center;
+    font-size: 12px;
+}
+.top1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.top1 button{
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 45px;
+    cursor: pointer;
+}
+.menu{
+    display: none;
+}
+
+.hero{
+    text-align: center;
+    margin-top: -1cap;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+}
+
+.hero h1{
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hero a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(93, 1, 93);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.logo img{
+    padding: 20px;
+    width: 120px;
+}
+.hero1{
+    text-align: center;
+    margin-top: 150px;
+}
+.hero1 h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hero1 a{
+    color: rgb(93, 1, 93);
+    text-decoration: none;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.features div{
+    padding: 30px;
+}
+.features img{
+    background-color: rgb(243, 231, 255);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.box_2{
+    background: linear-gradient(white, white) padding-box,
+            linear-gradient(to right, rgb(210, 117, 210), white) border-box;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    width: 450px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 20px;
+    height: 230px;
+}
+
+.shape1{
+    width: 132px;
+    height: 13px;
+    background-color: rgb(99, 47, 107);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.shape2{
+    width: 132px;
+    height: 13px;
+    background-color: rgb(228, 221, 228);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.shape{
+    display: flex;
+    justify-content: baseline;
+    margin-left: -10px;
+}
+.box{
+    display: flex;
+    height: 250px;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.drop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+.drop p{
+    width: 300px;
+}
+.drop h1{
+    color: rgb(99, 47, 107);
+}
+.drop div{
+    padding: 10px;
+}
+.hero3{
+    text-align: center;
+    margin-top: 100px;
+}
+.hero3 h3{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 30px;
+}
+.hero4{
+    text-align: center;
+    margin-top: 100px;
+}
+.hero4 h3{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px;
+}
+.button1{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(99, 47, 107);
+    padding: 20px 10px 15px 10px;
+    height: 30px;
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.button2{
+    color: rgb(57, 57, 57);
+    text-decoration: none;
+    background-color: rgb(214, 214, 214);
+    padding: 20px 10px 15px 10px;
+    display: flex;
+    width: 250px;
+    height: 30px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hero5{
+    text-align: center;
+    margin-top: 30px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer div{
+    padding: 20px 50px;
+}
+.foot{
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+    .nav{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .logo{
+        width: 800px;
+    }
+    .features{
+        margin-top: -50px;
+    }
+    .phone{
+        padding-top: 400px;
+    }
+    .drop{
+        margin-top: 500px;
+    }
+    .drop div{
+        padding: 50px;
+    }
+    .login{
+        margin-left: 450px;
+    }
+    .break1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .break{
+        display: none;
+    }
+    .login{
+        margin-left: 120px;
+    }
+    .hero h1{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+    .hero{
+        margin-top: -70px;
+        padding-top: 40px;
+        background-size: 600px;
+    }
+    .hero a{
+        padding: 20px 90px;
+    }
+    .hero p{
+        line-height: 25px;
+        margin-top: 52px;
+    }
+    .logo{
+        width: 400px;
+    }
+    .logo img{
+        width: 60px;
+    }
+    .phone{
+        width: 400px;
+        
+    }
+    .box_2{
+        width: 300px;
+        height: 170px;
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    .usd{
+        margin-left: -20px;
+        margin-right: 55px;
+        font-size: 11px;
+    }
+    .box_2 span{
+        font-size: 14px;
+    }
+    .shape{
+        width: 280px;
+        margin-left: 0px;
+    }
+    .shape3{
+        height: 15px;
+    }
+    .hero3 h3{
+        font-size: 25px;
+    }
+    .hero4 h3{
+        font-size: 25px;
+    }
+    .button1{
+        width: 300px;
+    }
+    .button2{
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .hero5{
+        text-align: left;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    footer{
+        display: block;
+        font-size: 22px;
+    }
+    .foot{
+        text-align: left;
+        margin-left: 40px;
+    }
+}
